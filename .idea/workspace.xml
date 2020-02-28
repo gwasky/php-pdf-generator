@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88c03deb-af86-4864-8b55-bc40ad61caa2" name="Default" comment="" />
+    <list default="true" id="1df5a891-c2f6-4335-ae58-3803b4dc7024" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/playground/test.php" />
+      <change type="DELETED" beforePath="D:\xampp\htdocs\icontrolbiller\.idea\.name" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PDOConnection.php" afterPath="$PROJECT_DIR$/PDOConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/billpdf2.php" afterPath="$PROJECT_DIR$/billpdf2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generator.php" afterPath="$PROJECT_DIR$/generator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/itemise.php" afterPath="$PROJECT_DIR$/itemise.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="icontrolbiller.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,23 +32,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="generator.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/generator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33449075">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+                <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+                <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="billpdf2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/billpdf2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
               <folding>
-                <marker date="1550749164456" expanded="true" signature="1243:4941" placeholder="SELECT a.msi..msisdn..." />
-                <marker date="1550749164456" expanded="true" signature="1572:4561" placeholder="SELECT msisd..msisdn..." />
-                <marker date="1550749164456" expanded="true" signature="1711:2433" placeholder="SELECT msisd..msisdn..." />
-                <marker date="1550749164456" expanded="true" signature="1837:2393" placeholder="SELECT msisd..." />
-                <marker date="1550749164456" expanded="true" signature="2457:2861" placeholder="SELECT msisd..icontrol_vas_usage..." />
-                <marker date="1550749164456" expanded="true" signature="2920:3347" placeholder="SELECT msisd..icontrol_vas_usage..." />
-                <marker date="1550749164456" expanded="true" signature="3405:3649" placeholder="SELECT msisd..icontrol_voice_usage..." />
-                <marker date="1550749164456" expanded="true" signature="3708:3939" placeholder="SELECT msisd..icontrol_sms_usage..." />
-                <marker date="1550749164456" expanded="true" signature="3998:4203" placeholder="SELECT msisd..icontrol_data_usage..." />
-                <marker date="1550749164456" expanded="true" signature="4262:4485" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
-                <marker date="1550749164456" expanded="true" signature="4621:4801" placeholder="SELECT t.mas..icontrol_subs..." />
+                <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+                <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+                <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+                <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+                <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+                <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+                <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+                <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+                <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+                <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+                <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+                <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDOConnection.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.307693">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <element signature="e#7#67#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,34 +84,25 @@
       <file leaf-file-name="itemise.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/itemise.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generator.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/generator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
-              <folding>
-                <marker date="1551446526493" expanded="true" signature="496:588" placeholder="select maste..icontrol_masters..." />
-                <marker date="1551446526493" expanded="true" signature="615:670" placeholder="select maste..icontrol_masters..." />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helper.php" />
-        <option value="$PROJECT_DIR$/billpdf2.php" />
+        <option value="$PROJECT_DIR$/playground/test.php" />
         <option value="$PROJECT_DIR$/itemise.php" />
+        <option value="$PROJECT_DIR$/PDOConnection.php" />
+        <option value="$PROJECT_DIR$/billpdf2.php" />
         <option value="$PROJECT_DIR$/generator.php" />
       </list>
     </option>
@@ -91,10 +119,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -119,7 +147,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,13 +167,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SuiteCRM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sbcrm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -182,18 +210,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88c03deb-af86-4864-8b55-bc40ad61caa2" name="Default" comment="" />
-      <created>1517982788146</created>
+      <changelist id="1df5a891-c2f6-4335-ae58-3803b4dc7024" name="Default" comment="" />
+      <created>1555047980707</created>
       <option name="number" value="Default" />
-      <updated>1517982788146</updated>
+      <updated>1555047980707</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23600605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -229,57 +257,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <marker date="1551446526493" expanded="true" signature="496:588" placeholder="select maste..icontrol_masters..." />
-            <marker date="1551446526493" expanded="true" signature="615:670" placeholder="select maste..icontrol_masters..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/itemise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <marker date="1550749164456" expanded="true" signature="1243:4941" placeholder="SELECT a.msi..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1572:4561" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1711:2433" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1837:2393" placeholder="SELECT msisd..." />
-            <marker date="1550749164456" expanded="true" signature="2457:2861" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="2920:3347" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3405:3649" placeholder="SELECT msisd..icontrol_voice_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3708:3939" placeholder="SELECT msisd..icontrol_sms_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3998:4203" placeholder="SELECT msisd..icontrol_data_usage..." />
-            <marker date="1550749164456" expanded="true" signature="4262:4485" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
-            <marker date="1550749164456" expanded="true" signature="4621:4801" placeholder="SELECT t.mas..icontrol_subs..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
+          <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
           <folding />
         </state>
       </provider>
@@ -287,57 +268,11 @@
     <entry file="file://$PROJECT_DIR$/generator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
           <folding>
-            <marker date="1551446526493" expanded="true" signature="496:588" placeholder="select maste..icontrol_masters..." />
-            <marker date="1551446526493" expanded="true" signature="615:670" placeholder="select maste..icontrol_masters..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="33" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
-          <folding>
-            <marker date="1550749164456" expanded="true" signature="1243:4941" placeholder="SELECT a.msi..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1572:4561" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1711:2433" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1837:2393" placeholder="SELECT msisd..." />
-            <marker date="1550749164456" expanded="true" signature="2457:2861" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="2920:3347" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3405:3649" placeholder="SELECT msisd..icontrol_voice_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3708:3939" placeholder="SELECT msisd..icontrol_sms_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3998:4203" placeholder="SELECT msisd..icontrol_data_usage..." />
-            <marker date="1550749164456" expanded="true" signature="4262:4485" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
-            <marker date="1550749164456" expanded="true" signature="4621:4801" placeholder="SELECT t.mas..icontrol_subs..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <marker date="1551446526493" expanded="true" signature="496:588" placeholder="select maste..icontrol_masters..." />
-            <marker date="1551446526493" expanded="true" signature="615:670" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
           </folding>
         </state>
       </provider>
@@ -345,308 +280,45 @@
     <entry file="file://$PROJECT_DIR$/billpdf2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
           <folding>
-            <marker date="1550749164456" expanded="true" signature="1243:4941" placeholder="SELECT a.msi..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1572:4561" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1711:2433" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1837:2393" placeholder="SELECT msisd..." />
-            <marker date="1550749164456" expanded="true" signature="2457:2861" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="2920:3347" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3405:3649" placeholder="SELECT msisd..icontrol_voice_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3708:3939" placeholder="SELECT msisd..icontrol_sms_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3998:4203" placeholder="SELECT msisd..icontrol_data_usage..." />
-            <marker date="1550749164456" expanded="true" signature="4262:4485" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
-            <marker date="1550749164456" expanded="true" signature="4621:4801" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="55" selection-start-line="66" selection-start-column="55" selection-end-line="66" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="240" column="35" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="240" column="35" selection-start-line="240" selection-start-column="35" selection-end-line="240" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="77" selection-start-line="59" selection-start-column="77" selection-end-line="59" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="47" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="227" column="9" selection-start-line="227" selection-start-column="9" selection-end-line="227" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/itemise.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BillPDF.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7834506">
-          <caret line="328" column="41" selection-start-line="328" selection-start-column="41" selection-end-line="328" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/billpdf2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1550749164456" expanded="true" signature="1243:4941" placeholder="SELECT a.msi..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1572:4561" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1711:2433" placeholder="SELECT msisd..msisdn..." />
-            <marker date="1550749164456" expanded="true" signature="1837:2393" placeholder="SELECT msisd..." />
-            <marker date="1550749164456" expanded="true" signature="2457:2861" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="2920:3347" placeholder="SELECT msisd..icontrol_vas_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3405:3649" placeholder="SELECT msisd..icontrol_voice_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3708:3939" placeholder="SELECT msisd..icontrol_sms_usage..." />
-            <marker date="1550749164456" expanded="true" signature="3998:4203" placeholder="SELECT msisd..icontrol_data_usage..." />
-            <marker date="1550749164456" expanded="true" signature="4262:4485" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
-            <marker date="1550749164456" expanded="true" signature="4621:4801" placeholder="SELECT t.mas..icontrol_subs..." />
+            <element signature="e#7#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/itemise.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -654,10 +326,521 @@
     <entry file="file://$PROJECT_DIR$/generator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding>
-            <marker date="1551446526493" expanded="true" signature="496:588" placeholder="select maste..icontrol_masters..." />
-            <marker date="1551446526493" expanded="true" signature="615:670" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="58" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playground/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35915494">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/itemise.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="195" column="52" selection-start-line="195" selection-start-column="52" selection-end-line="195" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PDOConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.307693">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="e#7#67#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/billpdf2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
+          <folding>
+            <marker date="1581074478205" expanded="true" signature="1567:5301" placeholder="SELECT a.msi..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="1896:4885" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2035:2757" placeholder="SELECT msisd..msisdn..." />
+            <marker date="1581074478205" expanded="true" signature="2161:2717" placeholder="SELECT msisd..." />
+            <marker date="1581074478205" expanded="true" signature="2781:3185" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3244:3671" placeholder="SELECT msisd..icontrol_vas_usage..." />
+            <marker date="1581074478205" expanded="true" signature="3729:3973" placeholder="SELECT msisd..icontrol_voice_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4032:4263" placeholder="SELECT msisd..icontrol_sms_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4322:4527" placeholder="SELECT msisd..icontrol_data_usage..." />
+            <marker date="1581074478205" expanded="true" signature="4586:4809" placeholder="SELECT subst..ICONTROL_DATA_SUBSCRIPTIONS..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5125" placeholder="SELECT t.mas..icontrol_subs..." />
+            <marker date="1581074478205" expanded="true" signature="4945:5161" placeholder="SELECT t.mas..icontrol_subs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33449075">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <marker date="1581492263330" expanded="true" signature="574:666" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:749" placeholder="select maste..icontrol_masters..." />
+            <marker date="1581492263330" expanded="true" signature="694:766" placeholder="select maste..icontrol_masters..." />
           </folding>
         </state>
       </provider>

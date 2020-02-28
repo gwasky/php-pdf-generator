@@ -5,9 +5,12 @@
  *
  * @author gibson
  */
+
+set_time_limit(7800);
+
 class PDOConnection {
     //put your code here
-    
+
     private $dbh;
 
     function __construct() {

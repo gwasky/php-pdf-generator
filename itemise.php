@@ -14,22 +14,16 @@ class itemise extends FPDF {
         $this->SetFillColor(255, 255, 255);
     }
 
-    function itemise($master_details, $data, $summary, $grandtotal, $output_method = 'I') {
-        //print_r($data);
+    function itemisation($master_details, $data, $summary, $grandtotal,$dir,$output_method = 'I') {
         $util = new helper();
-        $dir = "F:/air/icontrol/bills/FEB2019/";
+        //$dir = "F:/air/icontrol/bills/MAR2019/";
         $util->op_log($this->date, $master_details[MASTER_MSISDN] .'-'.$master_details[ACCOUNT_NAME], $logdetail = 'GENERATING ITEMISED BILL' );
         $pdf = new PDF();
-        /*if (count($master_details) == 0 & count($vas == 0 & count($voice) == 0 && count($sms) == 0)) {
-            $util->op_log($this->date,'ERROR', $logdetail = 'NO DATA HAS BEEN PASSED' );
-            return date('Y-m-d H:i:s') . "Err : NO DATA HAS BEEN PASSED<br>";
-        }*/
         $p = 0;
         $pdf->AliasNbPages();
         $pdf->AddPage();
         $pdf->SetMargins(10, 10, 10);
         //HEADER
-        //print_r($data);
         $i = 0;
         foreach ($data as $msisdn => $elements) {
             $this->grand_summary($pdf, $msisdn, $grandtotal);
@@ -42,9 +36,7 @@ class itemise extends FPDF {
                     }
                     $this->Header($pdf, $master_details);
                     $p = 0;
-                    //echo "VAS Item count" . $msisdn . "- " . count($elements) . "<br>";
                     $this->setVASHeader($pdf, $msisdn);
-                    //print_r($elements);
                     $this->setVASDetailsHeader($pdf);
                     $charge_details_Y = 48;
                     foreach ($items as $date => $elements1) {
@@ -89,10 +81,7 @@ class itemise extends FPDF {
                         $pdf->AddPage();
                     }
                     $i = 0;
-                    //echo "p ".$p ."<br>";
-                    //$pdf->AddPage();
                     if ($p == 1) {
-                        //echo "p ".$p ."<br>";
                         $this->NewPageHeader($pdf, $master_details);
                     } else {
                         $this->Header($pdf, $master_details);
@@ -106,8 +95,6 @@ class itemise extends FPDF {
                             foreach ($elements2 as $leg => $elements3) {
                                 ++$i;
                                 foreach ($elements3 as $charged_amount => $mou) {
-                                    //print_r($volume);
-                                    //echo $msisdn . " | " . $date . "| " . $calledparty . "| " . $charged_amount . " | " . $charged_amount . " | " . $mou[0] . "<br>";
                                     $pdf->ResetFillColor();
                                     $pdf->SetFont('Helvetica', '', 6);
                                     $pdf->SetY($charge_details_Y);
@@ -121,11 +108,8 @@ class itemise extends FPDF {
                                     $pdf->Ln();
                                     $charge_details_Y += 3;
                                     $x = $charge_details_Y;
-                                    //echo $i ."---- Y size". $charge_details_Y."<br>";
                                     if ($x % 276 == 0) {
-                                        //$pdf->Footer();
                                         $pdf->AddPage();
-                                        //$pdf->SetY($charge_details_Y);
                                         $this->NewPageHeader($pdf, $master_details);
                                         $this->setVoiceDetailsHeader($pdf);
                                         $charge_details_Y = 48;
@@ -210,19 +194,12 @@ class itemise extends FPDF {
     }
 
     function grand_summary($pdf, $msisdn, $grandtotal) {
-        //print_r($grandtotal);
         $pdf->SetY(36);
         $pdf->SetFont('Helvetica', 'B', 6);
         $pdf->ResetFillColor();
         $pdf->SetFont('Helvetica', 'B', 6);
         $pdf->Cell(35, 3, 'TOTAL CHARGEABLE AMOUNT:', 0, 0, L, true);
         $pdf->Cell(20, 3, number_format($grandtotal[$msisdn][TOTAL], 2), 0, 1, L, true);
-        //$pdf->Cell(50, 4, 'TOTAL CHARGEABLE AMOUNT', 0, 1, L,true);
-        //$pdf->SetFont('Helvetica', 'B', 6);
-        //$pdf->Cell(20, 4, 'testing', 0, 1, L,true);
-        //$pdf->Cell(20, 3, 'Call Duration', 0, 0, L, true);
-        //$pdf->Cell(20, 3, 'Charge Amount', 0, 1, R, true);
-        //$pdf->Cell(90, 4, number_format($grandtotal[$msisdn][TOTAL], 2), 0, 1, L);
         $pdf->Ln();
         return $pdf;
     }
@@ -317,8 +294,6 @@ class itemise extends FPDF {
 
     function setVoiceDetailsHeader($pdf) {
         $h = 4;
-        //overall_max_items z`29; //+3
-        //$pdf->SetXY($charge_details_X, $charge_details_Y + 7 + 0.5);
         $charge_details_Y += 45;
         $pdf->SetY($charge_details_Y);
         $pdf->SetFont('Helvetica', '', 8);

@@ -39,7 +39,13 @@ class PDF extends FPDF {
 
     function billPDF($value, $startdate, $billdate, $output_method = 'I') {
         $pdf = new PDF();
-        $dir = "F:/air/icontrol/bills/FEB2019/";
+        $util = new helper();
+        //$dir = '/opt/icontrol'.substr($billdate,3,3).substr($billdate,-4).'/';
+        $dir = 'd:/air/icontrol/bills/'.substr($billdate,3,3).substr($billdate,-4).'/';
+        if (!file_exists($dir)) {
+            mkdir($dir, 0777, true);
+            $util->op_log(date, 'CREATING ADDENDUM DIRECTORY', $logdetail = 'PATH ' .$dir );
+        }
         if (count($value) == 0) {
             return "NO MASTER NUMBER PASSED<br>";
         }
@@ -96,9 +102,10 @@ class PDF extends FPDF {
                  SELECT t.master_msisdn,t.msisdn,z.imsi,z.account_name
                  FROM icontrol_subs t LEFT OUTER JOIN icontrol_masters z
                  ON t.master_msisdn = z.master_msisdn
+                 WHERE z.status = 1
                 ) b ON a.msisdn = SUBSTR(b.msisdn,4,9) 
                  WHERE b.master_msisdn = '" . $value[MASTER_MSISDN] . "' ORDER BY 1";
-        //echo $select_sql;
+        echo $select_sql;
         //exit;
         //echo "GENERATING SUMMARY BILL FOR ".strtoupper($value[ACCOUNT_NAME])."<br>";
         $util->op_log($this->date,  $value[MASTER_MSISDN] .'-'.$value[ACCOUNT_NAME], $logdetail = 'GENERATING SUMMARY BILL');
@@ -239,7 +246,6 @@ class PDF extends FPDF {
             return $pdf->Output($file_name, $output_method);
         }
 
-        //$pdf->Output($file_name.'.pdf',$output_method);
         if ($pdf->Output($file_name, 'F')) {
             //echo "BILL GENERATION COMPLETE...<br>";
             $util->op_log($this->date, '', $logdetail = 'BILL GENERATION COMPLETE');
@@ -279,101 +285,8 @@ class PDF extends FPDF {
             $grandtotal[$pair[MSISDN]][TOTAL]+=$pair[CHARGED_AMOUNT];
             //echo $value[MSISDN]."<br>";
         }
-
-        /*
-          foreach ($data as $msisdn => $elements) {
-          //echo $msisdn." | ";
-          foreach ($elements as $key => $items) {
-          if ($key == 'VAS') {
-          foreach ($items as $date => $elements1) {
-          foreach ($elements1 as $service_usage_type => $elements2) {
-          foreach ($elements2 as $product_type => $elements3) {
-          foreach ($elements3 as $revenue => $volume) {
-          //print_r($volume);
-          echo $msisdn . " | " . $date . "| " . $service_usage_type . "| " . $product_type . " | " . $revenue . " | " . $volume[0] . "<br>";
-          }
-          }
-          }
-          }
-          print_r($summary[$msisdn][VAS]);
-          foreach($summary[$msisdn][VAS] as $k => $v){
-          echo $k. "-" . $v. "<br>";
-          }
-          } else if ($key == 'VOICE') {
-          foreach ($items as $date => $elements1) {
-          foreach ($elements1 as $calledparty => $elements2) {
-          foreach ($elements2 as $leg => $elements3) {
-          foreach ($elements3 as $charged_amount => $mou) {
-          //print_r($volume);
-          echo $msisdn . " | " . $date . "| " . $calledparty . "| " . $charged_amount . " | " . $charged_amount . " | " . $mou[0] . "<br>";
-          }
-          }
-          }
-          }
-          foreach($summary[$msisdn][VOICE] as $k1 => $v1){
-          echo $k1. "-" . $v1. "<br>";
-          }
-          } else if ($key == 'SMS') {
-          foreach ($items as $date => $elements1) {
-          foreach ($elements1 as $calledparty => $elements2) {
-          foreach ($elements2 as $leg => $charged_amount) {
-          echo $msisdn . " | " . $date . "| " . $calledparty . "| " . $leg . " | " . $charged_amount[0] . "<br>";
-          }
-          }
-          }
-          foreach($summary[$msisdn][SMS] as $k2 => $v2){
-          echo $k2. "-" . $v2. "<br>";
-          }
-          }
-
-          }
-          }
-
-         */
-        /*
-          foreach ($data[VOICE] as $msisdn => $elements) {
-          //echo $msisdn." | ";
-          foreach ($elements as $date => $elements1) {
-          foreach ($elements1 as $calledparty => $elements2) {
-          foreach ($elements2 as $leg => $elements3) {
-          foreach ($elements3 as $charged_amount => $mou) {
-          //print_r($volume);
-          echo $msisdn . " | " . $date . "| " . $calledparty . "| " . $charged_amount . " | " . $charged_amount . " | " . $mou[0] . "<br>";
-          }
-          }
-          }
-          }
-          }
-
-          foreach ($data[SMS] as $msisdn => $elements) {
-          //echo $msisdn." | ";
-          foreach ($elements as $date => $elements1) {
-          foreach ($elements1 as $calledparty => $elements2) {
-          foreach ($elements2 as $leg => $charged_amount) {
-          echo $msisdn . " | " . $date . "| " . $calledparty . "| " . $leg . " | " . $charged_amount[0]. "<br>";
-          }
-          }
-          }
-          }
-
-          foreach ($data[VAS] as $msisdn => $elements) {
-          //echo $msisdn." | ";
-          foreach ($elements as $date => $elements1) {
-          foreach ($elements1 as $service_usage_type => $elements2) {
-          foreach ($elements2 as $product_type => $elements3) {
-          foreach ($elements3 as $revenue => $volume) {
-          //print_r($volume);
-          echo $msisdn . " | " . $date . "| " . $service_usage_type . "| " . $product_type . " | " . $revenue ." | " . $volume[0] ."<br>";
-          }
-          }
-          }
-          }
-          }
-         */
-        //print_r($data);
-        //exit();
         $itemise_pdf = new itemise();
-        $itemise_pdf->itemise($value, $data, $summary, $grandtotal);
+        $itemise_pdf->itemisation($value, $data, $summary, $grandtotal,$dir);
     }
 
     function setFooter() {
