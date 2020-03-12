@@ -102,11 +102,10 @@ class PDF extends FPDF {
                  SELECT t.master_msisdn,t.msisdn,z.imsi,z.account_name
                  FROM icontrol_subs t LEFT OUTER JOIN icontrol_masters z
                  ON t.master_msisdn = z.master_msisdn
-                 WHERE z.status = 1
                 ) b ON a.msisdn = SUBSTR(b.msisdn,4,9) 
                  WHERE b.master_msisdn = '" . $value[MASTER_MSISDN] . "' ORDER BY 1";
-        echo $select_sql;
-        //exit;
+//         echo $select_sql;
+//        exit;
         //echo "GENERATING SUMMARY BILL FOR ".strtoupper($value[ACCOUNT_NAME])."<br>";
         $util->op_log($this->date,  $value[MASTER_MSISDN] .'-'.$value[ACCOUNT_NAME], $logdetail = 'GENERATING SUMMARY BILL');
         $pdf->AliasNbPages();

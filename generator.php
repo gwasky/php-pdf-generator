@@ -24,12 +24,14 @@ $d->modify('first day of this month');
 $startdate = $d->format('d-M-Y');
 
 //Get all active accounts
-$active_accounts_sql = "select master_msisdn,account_name from icontrol_masters where master_msisdn = '256707930601'";
-#$active_accounts_sql = "select master_msisdn,account_name from icontrol_masters WHERE status = 1";
+$active_accounts_sql = "select master_msisdn,account_name from icontrol_masters where master_msisdn = '256752738641' and status = 1";
+// $active_accounts_sql = "select master_msisdn,account_name from icontrol_masters WHERE status = 1";
 $results = $dbh->select($active_accounts_sql);
+
 $util->op_log('', 'END OF MONTH BILL RUN', $logdetail = 'ADDENDUM GENERATION FOR MONTH ENDING - ' .$billdate );
 foreach ($results as $key => $value) {
     $util->op_log('', $value[MASTER_MSISDN] .'-'.$value[ACCOUNT_NAME], $logdetail = 'BEGINNING GENERATION ' . $value[MASTER_MSISDN] );
     $pdf->billPDF($value, $startdate, $billdate);
 }
+
 ?>
